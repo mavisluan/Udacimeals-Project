@@ -1,40 +1,40 @@
 import {
-  addRecipe,
-  removeFromCalendar
+  ADD_RECIPE,
+  REMOVE_FROM_CALENDAR
 } from '../actions'
 
 const initialCalendarState = {
-  sunday = {
+  sunday: {
     breakfast: null,
     lunch: null,
     dinner: null
   },
-  monday = {
+  monday: {
     breakfast: null,
     lunch: null,
     dinner: null
   },
-  tuesday = {
+  tuesday: {
     breakfast: null,
     lunch: null,
     dinner: null
   },
-  wednesday = {
+  wednesday: {
     breakfast: null,
     lunch: null,
     dinner: null
   },
-  thursday = {
+  thursday: {
     breakfast: null,
     lunch: null,
     dinner: null
   },
-  friday = {
+  friday: {
     breakfast: null,
     lunch: null,
     dinner: null
   },
-  saturday = {
+  saturday: {
     breakfast: null,
     lunch: null,
     dinner: null
